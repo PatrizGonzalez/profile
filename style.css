@@ -1,0 +1,90 @@
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-family: 'Barred Sans Wide PERSONAL USE', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
+
+}
+
+body {
+  background-image: url("images/grsf.jpg");
+  background-color: #cccccc;
+}
+
+h2 {
+  text-align: left;
+  color: white;
+  font-size: 40px;
+  font-family: 'Vtks Halikopter', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: 'Vtks Halikopter', sans-serif;
+}
+
+a {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  font-family: 'Posca Mad Thrasherz', sans-serif;
+}
+
+p {
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  font-family: 'Vtks Halikopter', sans-serif;
+}
+
+ul {
+  text-align: right;
+  color: white;
+  font-size: 35px;
+  font-family: 'Vtks Halikopter', sans-serif;
+  padding-left: 5px;
+}
+
+.background-black {
+  background-color: black;
+  padding: 20px;
+  width: 80px;
+  text-align: left;
+}
+
+.background-black1 {
+  background-color: black;
+}
+
+.background-black2 {
+  background-color: black;
+
+}
+
+.rubber-duckie {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
